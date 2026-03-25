@@ -16,8 +16,12 @@ const charityRouters = require("./routers/charity.routes")
 const app = express();
 
 // MIDDLEWARE
+// app.use(cors({
+//   origin: "http://localhost:5173",
+//   credentials: true
+// }));
 app.use(cors({
-  origin: "http://localhost:5173",
+  origin: "https://your-frontend-name.vercel.app",
   credentials: true
 }));
 app.use(express.json());
