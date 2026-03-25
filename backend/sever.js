@@ -21,7 +21,7 @@ const app = express();
 //   credentials: true
 // }));
 app.use(cors({
-  origin: "https://your-frontend-name.vercel.app",
+  origin: "https://golfer-yo51.vercel.app",
   credentials: true
 }));
 app.use(express.json());
